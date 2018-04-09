@@ -1,0 +1,38 @@
+html{color:#000;background:#fff;}
+body{font:12px/1.5 "微软雅黑",Tahoma,Arial,Helvetica,sans-serif;word-break:break-all;word-wrap:break-word;}
+body,h1,h2,h3,h4,h5,h6,p,dl,dd{margin:0;}ul,ol,input{margin:0;padding:0;}li{list-style: none;}
+img{border:none;vertical-align:middle;}table{border-collapse:collapse;border-spacing:0;}
+em,i{font-style:normal}b,strong,th{font-weight:normal;}
+textarea{resize:none;}button,input,textarea{/*background: none; border:none;*/font-family:"微软雅黑",Tahoma,Arial,Helvetica,sans-serif;vertical-align:middle;}/*input:focus{outline: none;}*/
+
+a{color: #333; text-decoration: none;}
+
+.clearfix { *zoom:1}
+.clearfix:after{content: "";display: block; clear: both;}
+.clearDiv{clear:both;height:0;font-size:0; overflow: hidden;}
+
+.fl{float:left;}
+.fr{float:right;}
+
+.wrap{width:1190px;margin:0 auto;text-align: left;}
+
+.login_header{padding-top: 22px; margin-bottom: 20px;}
+.login_header h1{margin-right: 60px;}
+.login_header a{ color: #ffda44; font:bold 40px/40px "微软雅黑"; text-decoration: none;}
+.safe{ width: 902px; height: 30px;border:1px solid #ffb4a8;background-color: #fef2f2;color: #6C6C6C;text-align: center; line-height: 30px;}
+.login_main{width: 100%; height: 470px; background:url(../images/banner.png) no-repeat center center; padding-top: 130px; margin-bottom: 30px;}
+
+.login_main .list{width: 300px; height: 270px;padding: 25px 25px 23px;color: #6c6c6c;background-color: rgba(255,255,255,.8); margin-left: 800px;}
+.login_title{line-height: 28px;font-size: 16px;color: #3c3c3c;font-weight:bold; margin-bottom: 25px;}
+.name,.password{width: 256px; height: 40px; border:1px solid #ddd; padding-left: 45px; margin-bottom: 25px;}
+.name{ background: url(../images/dl_03.jpg) no-repeat left top;}
+.password{background: url(../images/dl_06.jpg) no-repeat left top;}
+.submit{ width: 302px; height: 42px; background-color:#ffda44; border:none; line-height: 42px;font-size: 16px;font-weight: bold;color: #fff; cursor: pointer;}
+
+/* 底部一堆 */
+.footer_1{padding: 15px 0; text-align: center; }
+.footer_1 a{margin: 0 4px; text-decoration: none;white-space: nowrap;color: #6c6c6c;}
+.footer_1 a:hover{color: #f40;}
+.footer_1 span{padding-left: 30px; border-left: 1px solid #6c6c6c;}
+.footer_2 a{ margin-right: 22px;}
+.footer_2 { text-align: center; padding-left: 16px;padding-bottom: 50px;}
